@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FB59D81D91977D00C13CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB59D71D91977D00C13CAD /* AppDelegate.swift */; };
+		02FB59DA1D91977D00C13CAD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB59D91D91977D00C13CAD /* FirstViewController.swift */; };
+		02FB59DC1D91977D00C13CAD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB59DB1D91977D00C13CAD /* SecondViewController.swift */; };
+		02FB59DF1D91977D00C13CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FB59DD1D91977D00C13CAD /* Main.storyboard */; };
+		02FB59E11D91977D00C13CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FB59E01D91977D00C13CAD /* Assets.xcassets */; };
+		02FB59E41D91977D00C13CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02FB59E21D91977D00C13CAD /* LaunchScreen.storyboard */; };
+		02FB59EF1D91977D00C13CAD /* Univeristy_Radio_NottinghamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB59EE1D91977D00C13CAD /* Univeristy_Radio_NottinghamTests.swift */; };
+		02FB59FA1D91977D00C13CAD /* Univeristy_Radio_NottinghamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FB59F91D91977D00C13CAD /* Univeristy_Radio_NottinghamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02FB59EB1D91977D00C13CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02FB59CC1D91977D00C13CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FB59D31D91977D00C13CAD;
+			remoteInfo = "Univeristy Radio Nottingham";
+		};
+		02FB59F61D91977D00C13CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02FB59CC1D91977D00C13CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02FB59D31D91977D00C13CAD;
+			remoteInfo = "Univeristy Radio Nottingham";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FB59D41D91977D00C13CAD /* Univeristy Radio Nottingham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Univeristy Radio Nottingham.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FB59D71D91977D00C13CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02FB59D91D91977D00C13CAD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		02FB59DB1D91977D00C13CAD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		02FB59DE1D91977D00C13CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02FB59E01D91977D00C13CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02FB59E31D91977D00C13CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02FB59E51D91977D00C13CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FB59EA1D91977D00C13CAD /* Univeristy Radio NottinghamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Univeristy Radio NottinghamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FB59EE1D91977D00C13CAD /* Univeristy_Radio_NottinghamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Univeristy_Radio_NottinghamTests.swift; sourceTree = "<group>"; };
+		02FB59F01D91977D00C13CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FB59F51D91977D00C13CAD /* Univeristy Radio NottinghamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Univeristy Radio NottinghamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FB59F91D91977D00C13CAD /* Univeristy_Radio_NottinghamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Univeristy_Radio_NottinghamUITests.swift; sourceTree = "<group>"; };
+		02FB59FB1D91977D00C13CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FB59D11D91977D00C13CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FB59E71D91977D00C13CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FB59F21D91977D00C13CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FB59CB1D91977D00C13CAD = {
+			isa = PBXGroup;
+			children = (
+				02FB59D61D91977D00C13CAD /* Univeristy Radio Nottingham */,
+				02FB59ED1D91977D00C13CAD /* Univeristy Radio NottinghamTests */,
+				02FB59F81D91977D00C13CAD /* Univeristy Radio NottinghamUITests */,
+				02FB59D51D91977D00C13CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02FB59D51D91977D00C13CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FB59D41D91977D00C13CAD /* Univeristy Radio Nottingham.app */,
+				02FB59EA1D91977D00C13CAD /* Univeristy Radio NottinghamTests.xctest */,
+				02FB59F51D91977D00C13CAD /* Univeristy Radio NottinghamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02FB59D61D91977D00C13CAD /* Univeristy Radio Nottingham */ = {
+			isa = PBXGroup;
+			children = (
+				02FB59D71D91977D00C13CAD /* AppDelegate.swift */,
+				02FB59D91D91977D00C13CAD /* FirstViewController.swift */,
+				02FB59DB1D91977D00C13CAD /* SecondViewController.swift */,
+				02FB59DD1D91977D00C13CAD /* Main.storyboard */,
+				02FB59E01D91977D00C13CAD /* Assets.xcassets */,
+				02FB59E21D91977D00C13CAD /* LaunchScreen.storyboard */,
+				02FB59E51D91977D00C13CAD /* Info.plist */,
+			);
+			path = "Univeristy Radio Nottingham";
+			sourceTree = "<group>";
+		};
+		02FB59ED1D91977D00C13CAD /* Univeristy Radio NottinghamTests */ = {
+			isa = PBXGroup;
+			children = (
+				02FB59EE1D91977D00C13CAD /* Univeristy_Radio_NottinghamTests.swift */,
+				02FB59F01D91977D00C13CAD /* Info.plist */,
+			);
+			path = "Univeristy Radio NottinghamTests";
+			sourceTree = "<group>";
+		};
+		02FB59F81D91977D00C13CAD /* Univeristy Radio NottinghamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02FB59F91D91977D00C13CAD /* Univeristy_Radio_NottinghamUITests.swift */,
+				02FB59FB1D91977D00C13CAD /* Info.plist */,
+			);
+			path = "Univeristy Radio NottinghamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FB59D31D91977D00C13CAD /* Univeristy Radio Nottingham */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FB59FE1D91977D00C13CAD /* Build configuration list for PBXNativeTarget "Univeristy Radio Nottingham" */;
+			buildPhases = (
+				02FB59D01D91977D00C13CAD /* Sources */,
+				02FB59D11D91977D00C13CAD /* Frameworks */,
+				02FB59D21D91977D00C13CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Univeristy Radio Nottingham";
+			productName = "Univeristy Radio Nottingham";
+			productReference = 02FB59D41D91977D00C13CAD /* Univeristy Radio Nottingham.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02FB59E91D91977D00C13CAD /* Univeristy Radio NottinghamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FB5A011D91977D00C13CAD /* Build configuration list for PBXNativeTarget "Univeristy Radio NottinghamTests" */;
+			buildPhases = (
+				02FB59E61D91977D00C13CAD /* Sources */,
+				02FB59E71D91977D00C13CAD /* Frameworks */,
+				02FB59E81D91977D00C13CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02FB59EC1D91977D00C13CAD /* PBXTargetDependency */,
+			);
+			name = "Univeristy Radio NottinghamTests";
+			productName = "Univeristy Radio NottinghamTests";
+			productReference = 02FB59EA1D91977D00C13CAD /* Univeristy Radio NottinghamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02FB59F41D91977D00C13CAD /* Univeristy Radio NottinghamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FB5A041D91977D00C13CAD /* Build configuration list for PBXNativeTarget "Univeristy Radio NottinghamUITests" */;
+			buildPhases = (
+				02FB59F11D91977D00C13CAD /* Sources */,
+				02FB59F21D91977D00C13CAD /* Frameworks */,
+				02FB59F31D91977D00C13CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02FB59F71D91977D00C13CAD /* PBXTargetDependency */,
+			);
+			name = "Univeristy Radio NottinghamUITests";
+			productName = "Univeristy Radio NottinghamUITests";
+			productReference = 02FB59F51D91977D00C13CAD /* Univeristy Radio NottinghamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FB59CC1D91977D00C13CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Univeristy Radio Nottingham";
+				TargetAttributes = {
+					02FB59D31D91977D00C13CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					02FB59E91D91977D00C13CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02FB59D31D91977D00C13CAD;
+					};
+					02FB59F41D91977D00C13CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02FB59D31D91977D00C13CAD;
+					};
+				};
+			};
+			buildConfigurationList = 02FB59CF1D91977D00C13CAD /* Build configuration list for PBXProject "Univeristy Radio Nottingham" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02FB59CB1D91977D00C13CAD;
+			productRefGroup = 02FB59D51D91977D00C13CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FB59D31D91977D00C13CAD /* Univeristy Radio Nottingham */,
+				02FB59E91D91977D00C13CAD /* Univeristy Radio NottinghamTests */,
+				02FB59F41D91977D00C13CAD /* Univeristy Radio NottinghamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FB59D21D91977D00C13CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FB59E41D91977D00C13CAD /* LaunchScreen.storyboard in Resources */,
+				02FB59E11D91977D00C13CAD /* Assets.xcassets in Resources */,
+				02FB59DF1D91977D00C13CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FB59E81D91977D00C13CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FB59F31D91977D00C13CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FB59D01D91977D00C13CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FB59DC1D91977D00C13CAD /* SecondViewController.swift in Sources */,
+				02FB59D81D91977D00C13CAD /* AppDelegate.swift in Sources */,
+				02FB59DA1D91977D00C13CAD /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FB59E61D91977D00C13CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FB59EF1D91977D00C13CAD /* Univeristy_Radio_NottinghamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02FB59F11D91977D00C13CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FB59FA1D91977D00C13CAD /* Univeristy_Radio_NottinghamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02FB59EC1D91977D00C13CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02FB59D31D91977D00C13CAD /* Univeristy Radio Nottingham */;
+			targetProxy = 02FB59EB1D91977D00C13CAD /* PBXContainerItemProxy */;
+		};
+		02FB59F71D91977D00C13CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02FB59D31D91977D00C13CAD /* Univeristy Radio Nottingham */;
+			targetProxy = 02FB59F61D91977D00C13CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02FB59DD1D91977D00C13CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FB59DE1D91977D00C13CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02FB59E21D91977D00C13CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02FB59E31D91977D00C13CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02FB59FC1D91977D00C13CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02FB59FD1D91977D00C13CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FB59FF1D91977D00C13CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Univeristy Radio Nottingham/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "URN.Univeristy-Radio-Nottingham";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02FB5A001D91977D00C13CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Univeristy Radio Nottingham/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "URN.Univeristy-Radio-Nottingham";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		02FB5A021D91977D00C13CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Univeristy Radio NottinghamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "URN.Univeristy-Radio-NottinghamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Univeristy Radio Nottingham.app/Univeristy Radio Nottingham";
+			};
+			name = Debug;
+		};
+		02FB5A031D91977D00C13CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Univeristy Radio NottinghamTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "URN.Univeristy-Radio-NottinghamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Univeristy Radio Nottingham.app/Univeristy Radio Nottingham";
+			};
+			name = Release;
+		};
+		02FB5A051D91977D00C13CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Univeristy Radio NottinghamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "URN.Univeristy-Radio-NottinghamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Univeristy Radio Nottingham";
+			};
+			name = Debug;
+		};
+		02FB5A061D91977D00C13CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Univeristy Radio NottinghamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "URN.Univeristy-Radio-NottinghamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Univeristy Radio Nottingham";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FB59CF1D91977D00C13CAD /* Build configuration list for PBXProject "Univeristy Radio Nottingham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FB59FC1D91977D00C13CAD /* Debug */,
+				02FB59FD1D91977D00C13CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FB59FE1D91977D00C13CAD /* Build configuration list for PBXNativeTarget "Univeristy Radio Nottingham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FB59FF1D91977D00C13CAD /* Debug */,
+				02FB5A001D91977D00C13CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02FB5A011D91977D00C13CAD /* Build configuration list for PBXNativeTarget "Univeristy Radio NottinghamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FB5A021D91977D00C13CAD /* Debug */,
+				02FB5A031D91977D00C13CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02FB5A041D91977D00C13CAD /* Build configuration list for PBXNativeTarget "Univeristy Radio NottinghamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FB5A051D91977D00C13CAD /* Debug */,
+				02FB5A061D91977D00C13CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FB59CC1D91977D00C13CAD /* Project object */;
+}
