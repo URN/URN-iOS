@@ -22,6 +22,19 @@ class FirstViewController: UIViewController {
         
         print("Setup")
         
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            print("AVAudioSession Category Playback OK")
+            do {
+                try AVAudioSession.sharedInstance().setActive(true)
+                print("AVAudioSession is Active")
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+        
         let urlString = "http://128.243.106.145:8080/urn_high.mp3"
         let url = NSURL(string: urlString)!
         player = AVPlayer(url: url as URL)
