@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class FirstViewController: UIViewController {
+class FirstViewController: KeyboardViewController {
     
     var playerItem:AVPlayerItem?
     var player:AVPlayer!
@@ -23,14 +23,12 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print("Setup")
-        
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-            print("AVAudioSession Category Playback OK")
+//            print("AVAudioSession Category Playback OK")
             do {
                 try AVAudioSession.sharedInstance().setActive(true)
-                print("AVAudioSession is Active")
+//                print("AVAudioSession is Active")
             } catch let error as NSError {
                 print(error.localizedDescription)
             }
@@ -38,12 +36,13 @@ class FirstViewController: UIViewController {
             print(error.localizedDescription)
         }
         
+        // Set stream URL and set player URL
         let urlString = "http://128.243.106.145:8080/urn_high.mp3"
         let url = NSURL(string: urlString)!
         player = AVPlayer(url: url as URL)
-        playButton.addTarget(self, action: #selector(playButtonTapped), for: .touchUpInside)
         
-        print("Handler Added")
+        // Add handler for button
+        playButton.addTarget(self, action: #selector(playButtonTapped), for: .touchUpInside)
     }
     
     override func didReceiveMemoryWarning() {
@@ -55,11 +54,11 @@ class FirstViewController: UIViewController {
         if player?.rate == 0
         {
             player!.play()
-            playButton.setTitle("Pause", for: .normal)
+            playButton.setImage(#imageLiteral(resourceName: "Pause"), for: UIControlState.normal)
             print("Start")
         } else {
             player!.pause()
-            playButton.setTitle("Play", for: .normal)
+            playButton.setImage(#imageLiteral(resourceName: "Play"), for: UIControlState.normal)
             print("Stop")
         }
     }
@@ -67,40 +66,23 @@ class FirstViewController: UIViewController {
     @IBAction func msgSend(_ sender: UITextField) {
         sendMessage()
     }
+    
     func sendMessage()	{
-        //        let dict = ["message": "Jack is happy"]
-        //
-        //        if let json = try? JSONSerialization.data(withJSONObject: dict, options: []) {
-        //            if let content = String(data: json, encoding: String.Encoding.utf8) {
-        //                // here `content` is the JSON dictionary containing the String
-        //                print(content)
-        //            }
-        //        }
-        //
-        // create post request
+
+        // Set URL and meta values
         let mesUrl = NSURL(string: "http://urn1350.net/api/send_message")!
         let request = NSMutableURLRequest(url: mesUrl as URL)
         request.httpMethod = "POST"
         request.setValue("URN iOS", forHTTPHeaderField: "User-Agent")
         
-        // insert json data to the request
-        //        let mapDict = [ "1":"First", "2":"Second"]
-        
-        //        let json2 = ["message":"Hi there"] as [String : Any]
-        
-        //        do {
-        //            let jsonData = try JSONSerialization.data(withJSONObject: json2)
-        
-        //            let string1 = String(data: jsonData, encoding: String.Encoding.utf8) ?? "Data could not be printed"
-        //            print(string1)
-        // insert json data to the request
-        //            request.addValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        // Set content
         let postString = "message=" + txtMessage.text!
         print (postString)
         request.httpBody = postString.data(using: .utf8)
         
         var requestDidSucceed = false
         
+        // Send message
         let task = URLSession.shared.dataTask(with: request as URLRequest){ data,response,error in
             if error != nil{
                 print(error!.localizedDescription)
@@ -122,7 +104,7 @@ class FirstViewController: UIViewController {
         task.resume()
         
         // Clear text box
-        self.txtMessage.text = ""
+        txtMessage.text = ""
         
         print (requestDidSucceed)
         
@@ -133,8 +115,8 @@ class FirstViewController: UIViewController {
         if succeed {
             print ("Message sent successfully")
             
-//            // Clear text box
-//            self.txtMessage.text = ""
+            // Clear text box
+            txtMessage.text = ""
             
             
             //Popup to say message sent
