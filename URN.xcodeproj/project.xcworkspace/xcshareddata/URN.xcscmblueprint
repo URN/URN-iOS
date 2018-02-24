@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0C915F0DDB947E7FDEBC2B600457B62D3E4C6B7D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9960BF2603608357763353B9A3A8B6624FDCD94E" : 9223372036854775807,
+    "0C915F0DDB947E7FDEBC2B600457B62D3E4C6B7D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DE0E4EC9-BA0F-4F27-B4C1-60098B2FB12B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9960BF2603608357763353B9A3A8B6624FDCD94E" : "..\/KeyboardViewController",
+    "0C915F0DDB947E7FDEBC2B600457B62D3E4C6B7D" : "Univeristy%20Radio%20Nottingham\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "URN",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "URN.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:URN\/URN-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C915F0DDB947E7FDEBC2B600457B62D3E4C6B7D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/codebeaulieu\/KeyboardViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9960BF2603608357763353B9A3A8B6624FDCD94E"
+    }
+  ]
+}
